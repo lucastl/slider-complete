@@ -8,9 +8,15 @@
 </head>
 
 <body>
-    <slider-app width="100" height="300">
-        <slide-app title="This is a title" description="This is an description." bgColor="red"></slide-app>
-        <slide-app title="This is another title" description="This is another description." bgColor="blue"></slide-app>
+    <slider-app width="100" height="300" iconNext=">" iconBack="<">
+        <slide-app title="This is a title" description="This is an description." bgColor="red" active=true>
+        </slide-app>
+        <slide-app title="This is another title" description="This is another description." bgColor="blue"
+            active="false">
+        </slide-app>
+        <slide-app title="This is another title" description="This is another description." bgColor="green"
+            active="false">
+        </slide-app>
     </slider-app>
     <script type="module" src="./index.js"></script>
 </body>
